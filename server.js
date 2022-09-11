@@ -2,7 +2,7 @@ const express = require('express');
 const socket = require('socket.io');
 const fs = require('fs');
 const app = express();
-var PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 const server = app.listen(PORT);
 const cors = require ('cors');
 
